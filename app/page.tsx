@@ -77,36 +77,37 @@ export default function LandingPage() {
   const carData = [
     {
       title: "Mahindra Thar",
-      src: carImages[0] ? getImageUrl(carImages[0].$id) : "/assets/image/amjith-s-8G4hNKdu60M-unsplash.jpg",
+      src: "/assets/image/amjith-s-8G4hNKdu60M-unsplash.jpg",
+      // src: carImages[0] ? getImageUrl(carImages[0].$id) : "/assets/image/amjith-s-8G4hNKdu60M-unsplash.jpg",
       description: "A rugged, all-black Mahindra Thar showcasing its off-road capabilities and commanding presence.",
     },
     {
       title: "Toyota Supra Mk IV",
-      src: carImages[1] ? getImageUrl(carImages[1].$id) : "/assets/image/anastase-maragos-Lrfuy93_hAc-unsplash.jpg",
+      src: "/assets/image/anastase-maragos-Lrfuy93_hAc-unsplash.jpg",
       description: "Iconic sports car with a sleek, aerodynamic design and powerful performance capabilities.",
       link: "/car/bmw",
     },
     {
       title: "Land Rover Defender",
-      src: carImages[2] ? getImageUrl(carImages[2].$id) : "/assets/image/karsten-winegeart-afDsNrec8gI-unsplash.jpg",
+      src:  "/assets/image/karsten-winegeart-afDsNrec8gI-unsplash.jpg",
       description: "Premium off-road SUV combining luxury with exceptional terrain-conquering capabilities.",
       link: "/car/lambo",
     },
     {
       title: "Tesla Roadster",
-      src: carImages[3] ? getImageUrl(carImages[3].$id) : "/assets/image/tesla-fans-schweiz-7_OQMgoGzDw-unsplash.jpg",
+      src: "/assets/image/tesla-fans-schweiz-7_OQMgoGzDw-unsplash.jpg",
       description: "Revolutionary electric sports car setting new standards in performance and innovation.",
       link: "/car/tesla",
     },
     {
       title: "Dodge Ram 1500",
-      src: carImages[4] ? getImageUrl(carImages[4].$id) : "/assets/image/stevosdisposable-6DnSGv4VZlo-unsplash.jpg",
+      src: "/assets/image/stevosdisposable-6DnSGv4VZlo-unsplash.jpg",
       description: "Powerful full-size pickup truck offering unmatched towing capacity and premium comfort.",
       link: "/car/dodge",
     },  
     {
       title: "AC Cobra",
-      src: carImages[5] ? getImageUrl(carImages[5].$id) : "/assets/image/live-car-p635p3cj7x0qkf44.jpg",
+      src: "/assets/image/live-car-p635p3cj7x0qkf44.jpg",
       description: "Legendary British sports car known for its raw power and timeless design.",
       link: "/car/ac",
     },
